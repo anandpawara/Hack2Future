@@ -85,6 +85,6 @@ if __name__ == "__main__":
     # app.secret_key = "dfsdffsfwerewrs"
     # app.config['SESSION_TYPE'] = 'filesystem'
     # sess.init_app(app)
-    app.run(debug=True,host="0.0.0.0",use_reloader=False)
+    app.run(debug=True,host="0.0.0.0",port=8080,use_reloader=False)
 
 CORS(app, expose_headers='Authorization')
